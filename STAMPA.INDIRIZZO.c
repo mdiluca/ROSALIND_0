@@ -7,7 +7,7 @@ int i=0;
 int j=9;
 for(i=0;i<10;i++){
 	S1[j]=S2[i];
-	j=j-1;
+	j=j-1; // inverte
 }
 for (int k = 0; k < 10; k++)printf("%c ", S1[k]);
 printf("\n");	
